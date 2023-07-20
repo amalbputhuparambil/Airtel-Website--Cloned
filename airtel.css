@@ -1,0 +1,238 @@
+
+#navbar1{
+    display: flex;
+    height: 37%;
+    width:100% ;
+    margin-top: 0%;
+    border-bottom: 1px solid;
+
+}
+.nav1text{
+    font-size: medium;
+    color: gray;
+    font-weight:bold;
+}
+.nav1text:hover{
+    color: red;
+    border-top:3px solid  ;
+}
+.nav1space{
+    padding-top:10px;
+    margin-left: 45px;
+}
+#nav1icon{
+   
+height:70% ;
+width: 20px;
+margin-right:10px ;
+margin-left:620px ;
+}
+#navbar2{
+    display: flex;
+    height: 60px;
+    width:100% ;
+}
+#nav2logo{
+    height: 59%;
+    width: 151px;
+    margin-top: 13px;
+    margin-left: 40px;
+    
+}
+#nav2fortext{
+    display: flex;
+    width: inherit;
+    margin-left:140px ;
+}
+#nav2text{
+    color: rgb(116, 114, 113);
+    height: inherit; 
+    width: auto;
+    padding-left:16px ;
+    padding-right:18px;
+    padding-top:26px ;
+    font-size:small;
+}
+#nav2text:hover{
+    border-top:4px solid ;
+    color: red;
+    background-color: aliceblue;
+}
+ 
+@media (width<=1200px){
+    #disablenav1 {
+    display: none;    
+    }   
+    
+    
+}
+@media (width>1200px){
+    #disable2{display: none;
+        
+    }
+}
+.navbar3{
+    height: 50px;
+    width: 100%;
+    margin-top:0% ;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.item1{
+    display: flex;
+    height:inherit ;
+    width:30% ;
+
+}
+.item2{
+
+    height:inherit ;
+    width:30% ;
+
+}
+.item3{
+    
+    height:inherit ;
+    width:30% ;
+    display: flex;
+
+}
+.img1{
+    height: 52%;
+    width: 30px;
+    margin-top: 5%;
+    padding-left: 2%;
+}
+.imgtext{
+    margin-top:5% ;
+    font-size: medium;
+    color: rgb(127, 127, 127);
+    padding-left:4% ;
+}
+.icononly{
+    height: 35px;
+    width: 20px;
+    padding-top: 4%;
+
+}
+.image1{
+    height:auto;
+    width:100% ;
+}
+.s2{
+    margin-top: 5%;
+    text-align: center;
+    font-weight: bold;
+}
+.btsmain{
+    text-align: center;
+}
+
+
+
+.btns{
+    margin-top: 2%;
+    padding-left: 2%;
+    padding-right:2% ;
+    border-radius:12%;
+    height: auto;
+    width: auto; 
+    background-color: aliceblue;
+    border-width:0px;   
+}
+.btns:hover{
+    background-color: rgb(210, 214, 217);
+}
+.s2p2{
+
+    height: 32px;
+    width: 300px;
+    border: width 2px solid;;
+}
+.a{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+.submit1{
+    height:32px ;
+    width:300px ;
+    padding-left:3% ;
+    padding-right: 3%;
+    background-color: black;
+    color: white;
+}
+.submit1:hover{
+    background-color: rgb(247, 247, 247);
+    color: black;
+}
+.offers{
+    height:auto ;
+    padding-bottom: 2%;
+    width: 100%;
+    margin-top:5% ;
+    background-color: rgb(246, 98, 6);
+
+}
+
+.ss{
+    padding-top: 1%;
+    color: white;
+    padding-left: 1%;
+    font-size: small;
+}
+@media (width<768px) {
+    .s2{
+        font-size: larger;
+        margin-top: 5%;
+       text-align: center;
+        font-weight: bold;
+}
+    }
+    
+.as{
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 2%;
+    color: red;
+}
+.as:hover{
+    color: rgb(12, 25, 165);
+    background-color: bisque;
+}
+.as:active{
+    background-color: black;
+}
+
+.asss{
+    width:inherit ;
+    height:100px ;
+    margin-bottom: 4px;
+}
+
+.s5img{
+    width: 100%;
+    height:40% ;
+    margin-top:5px ;
+
+}
+.ass5{
+    width:inherit ;
+    height:300px ;
+    margin-top: 35px;
+    padding-left: 2%;
+    padding-right:2% ;
+}
+.footer{
+    margin-top: 3%;
+}
+.s61{
+    margin-top: 25px;
+    margin-bottom: 50px;
+    color: rgb(233, 221, 221);
+}
